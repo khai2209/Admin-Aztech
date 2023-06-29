@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Class */
+.color-fff {
+    color: #fff;
+}
+
+.padding-tb {
+    padding: 5px 0 5px 0;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.invalid {
+    border: 1px solid red !important;
+}
+
+:root {
+    --height: 3703.53px;
+    --topadd: 460px;
+}
+
+body a {
+    text-decoration: none;
+}
+
+@keyframes logo {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(5px);
+        transform: translateY(-5px)
+    }
+}
+
+@font-face {
+    font-family: Quicksand, sans-serif;
+    src: url(C:\Users\My PC\Dropbox\PC\Downloads\Quicksand\Quicksand-VariableFont_wght.ttf);
+}
+
+html {
+    font-family: Quicksand, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-weight {
+    font-weight: bold;
+}
+
+header {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background-color: #394d60;
+    border: 1px solid #41566a;
+    z-index: 400;
+    transition: all 0.5s ease-in-out;
+}
+
+header .navbar>a .navbar-logo {
+    transition: all 0.5s ease-in-out;
+}
+
+header .icon-back-top i,
+header .icon-back-top p {
+    color: #999;
+    text-shadow: 0 0 #fff;
+}
+
+header .icon-back-top:hover i,
+header .icon-back-top:hover p {
+    color: #ff5722;
+    border-radius: none;
+    transition: all 0.3s ease-in-out;
+}
+
+@keyframes pulseAnimation {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+}
+
+
+
+#header .navbar {
+    display: flex;
+    justify-content:center;
+    line-height: 100px;
+}
+
+#header .navbar-logo {
+    color: #a9702d;
+    font-size: 35px;
+    display: inline-block;
+    animation: logo 1s infinite ease-in-out alternate;
+}
+
